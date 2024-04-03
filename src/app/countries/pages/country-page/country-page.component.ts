@@ -2,7 +2,7 @@ import { switchMap } from 'rxjs';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CountriesService } from './../../services/countries.service';
-import { Country } from '../../interfaces/countries.interfaces';
+import { Country } from '../../interfaces/countries.interface';
 
 @Component({
   selector: 'app-country-page',
